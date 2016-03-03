@@ -36,8 +36,5 @@ app.post("/",function(req,res){
     }
     res.render("resultado",{resultados:resultado})
 })
-app.put("/",function(req, res) {
-    res.render("index")
-    console.log("xx")
-})
+
 app.listen(8080);
